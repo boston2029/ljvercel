@@ -8,7 +8,7 @@ from flask_mail import Mail
 # with open('jobs.json') as file:
 #     content = file.read()
 #     jobs = json.loads(content)
-jobs = json.loads('''JSON.parse(`{
+jobs = json.loads('''{
   "ui-ux-designer": {
     "job": "UI/UX Designer",
     "description": "Good at making mobile-friendly, responsive web designs? Check out this job.",
@@ -150,8 +150,7 @@ jobs = json.loads('''JSON.parse(`{
     ],
     "task": null
   }
-}
-`)''')
+}''')
 
 app = Flask(__name__)
 app.config['MAIL_SERVER'] = 'smtp.zoho.com'
