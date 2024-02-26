@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Jobs @ Libit</h1>
+<p>Thanks for choosing to work with Libit! While this isn't a real job that you can earn money from (yet), you will still earn the gift of collaborating with others and building our community back. Check out a job below to see if it fits you, and click it for more information.</p>
+<div class="cards">
+  {% for slug, job in jobs.items() %}
+  <div class="card" onclick="location.href='/job/{{ slug }}'">
+    <h2>{{ job['job'] }}</h2>
+    <p>{{ job['description'] }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

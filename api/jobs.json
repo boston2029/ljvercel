@@ -1,0 +1,149 @@
+{
+  "ui-ux-designer": {
+    "job": "UI/UX Designer",
+    "description": "Good at making mobile-friendly, responsive web designs? Check out this job.",
+    "long_description": "As a UI/UX designer, you will design modern, sleek web interfaces. Some pages you will work on include the Libit IDE, Bibble (community forum), and more. These pages need to be responsive, SEO-friendly, accessible, and follow other common principles of modern web design.",
+    "requirements": [
+      "Able to understand and follow design principles (contrast, font, etc.)",
+      "Understanding of UX (\"if I were a normal user, would this be easy to use?\")"
+    ],
+    "desirable_skills": [
+      "Experience with website design tools (Figma, Sketch, Excalidraw, etc.)",
+      "Knowledge of HTML, CSS, and JavaScript"
+    ],
+    "submit-work": "You can use almost any platform to share your designs. We recommend Figma, but don't mind what you use. As long as we are able to access all designs, it is allowed. Once finished, you can reply to the original email.",
+    "task": "GreenByte is a startup whose mission is \"to revolutionize waste management through smart technology\". GreenByte develops an AI-powered device that sorts household waste into recyclable, compostable, and landfill categories. The device, named \"EcoSorter\", uses machine learning algorithms to recognize different types of waste, sort them accordingly, and provide users with data about their waste generation patterns. You have been hired by GreenByte to design their landing page. They are asking for a responsive homepage that includes a navigation bar, hero section, about us section, contact section, and services section. They are asking for the accent colors to be based off of their name and overall branding.",
+    "resources": {
+      "Realtime Colors": "https://realtimecolors.com/",
+      "Website Design and Accessibility": "https://cdm-project.replit.app/"
+    }
+  },
+
+  "treasurer": {
+    "job": "Treasurer",
+    "description": "Responsible with money? Have a fresh bank account we can use? This job is for you!",
+    "long_description": "This job really doesn't require much work. You are entrusted to hold and keep track of our money.",
+    "requirements": [
+      "18+ or accompanied by an adult",
+      "Have an empty bank account for donations",
+      "Willing to share bank account with others"
+    ],
+    "desirable_skills": [
+      "Prior experience setting up bank accounts with online platforms such as Stripe, Square, or PayPal"
+    ],
+    "submit-work": "A screenshot of your online banking dashboard is sufficient, as long as it is easily verifiable. You can reply to the orginal email with this screenshot.",
+    "task": "Show us easily verifiable proof that you own an empty bank account."
+  },
+
+  "front-end-developer": {
+    "job": "Front-End Developer",
+    "description": "Want to work on what's served to the user? Check this one out.",
+    "long_description": "As a front-end developer, you will be responsible for designing and developing websites and web applications. You will work closely with the design team to ensure that the website is visually appealing, user-friendly, and responsive. You will also be responsible for ensuring that the website is optimized for search engines and accessibility.",
+    "requirements": [
+      "Proficiency in HTML, CSS, and JavaScript",
+      "Ability to bring designs to life on a webpage",
+      "Experience with using APIs"
+    ],
+    "desirable_skills": [
+      "Knowledge of Firebase"
+    ],
+    "submit-work": "You can use almost any platform to share your code. We recommend GitHub, but don't mind what you use. As long as we are able to access the full project, it is allowed. Once finished, you can reply to the original email with your code link/ZIP.",
+    "task": "Create a small single-page application (SPA) that interacts with a public API. For example, a weather app that uses the OpenWeatherMap API to display weather data based on user input.",
+    "resources": {
+      "OpenWeatherMap API": "https://openweathermap.org/api"
+    }
+  },
+
+  "back-end-developer": {
+    "job": "Back-End Developer",
+    "description": "Like working behind the scenes? You're just the right fit for this job.",
+    "long_description": "As a back-end developer, you will work with databases and APIs. Even though the users can't see it, you're the one (of a few) directing the strings. You're the backbone. Every single part of the platform ultimately starts with you. No matter what, it starts with you giving data to the front-end which uses the web design to display the information you gave.",
+    "requirements": [
+      "Proficient in Python Flask",
+      "Experience with making RESTful APIs"
+    ],
+    "desirable_skills": [
+      "Experience with Firebase Admin SDK",
+      "Knowledge of JavaScript"
+    ],
+    "submit-work": "You can use almost any platform to share your code. We recommend GitHub, but don't mind what you use. As long as we are able to access the full project, it is allowed. Once finished, you can reply to the original email with your code link/ZIP.",
+    "task": "Develop a RESTful API for a simple note-taking application. The API should support operations like creating a note, reading a note, updating a note, and deleting a note."
+  },
+
+  "full-stack-developer": {
+    "job": "Full-Stack Developer",
+    "description": "Want to work on the front and back ends? Check out this one!",
+    "long_description": "If you're good at front-end AND back-end web development, this job's for you. People like you are valued because if the front-end errors because the back-end is broken, you'll know where and how to check both.",
+    "requirements": [
+      "Proficiency in HTML, CSS, JS, and Python Flask",
+      "Experience with using and making APIs",
+      "Experience with using Firebase"
+    ],
+    "desirable_skills": [
+      "Experience with Firebase Admin SDK"
+    ],
+    "submit-work": "You can use almost any platform to share your code. We recommend GitHub, but don't mind what you use. As long as we are able to access the full project, it is allowed. Once finished, you can reply to the original email with your code link/ZIP.",
+    "task": "Build any full-stack application. This could be a simple blog site where users can create, read, update, and delete blog posts."
+  },
+
+  "ethical-hacker": {
+    "job": "Ethical Hacker",
+    "description": "Prefer keeping your white hat on? Check this out.",
+    "long_description": "As a penetration tester / ethical hacker, your role is to identify and exploit vulnerabilities in our systems. When all systems are in place, you'll be striking them. You basically get to be a hacker, but instead of <i>just</i> taking down our website, you'll take down our website AND report the issue to us so we can fix it. Penetration testers are appreciated because you can help tighten our ropes of frontend and backend so our platform can have some strong slipknots.",
+    "requirements": [
+      "Proficient in at least one programming language",
+      "Understanding of RESTful APIs",
+      "Ability to utilize browser DevTools to test endpoints and snippets of code.",
+      "Critical-thinking skills"
+    ],
+    "desirable_skills": [
+      "Knowledge of cURL and other API testing tools"
+    ],
+    "task": null
+  },
+
+  "graphic-designer": {
+    "job": "Graphic Designer",
+    "description": "Good at drawing and editing? Eager to make banners and possibly promotional content? Take a look at this job!",
+    "long_description": "Hey, artist! Able to make graphics, banners, and other images? This is for you. You will design logos, icons, banners, promo content, and so much more.",
+    "requirements": [
+      "Able to understand and follow design principles (contrast, font, etc.)",
+      "Understanding of UX (\"if I were a normal user, would this be easy to use?\")"
+    ],
+    "desirable_skills": [
+      "Experience with graphic design tools (Photoshop, Illustrator, etc.)",
+      "Knowledge of HTML, CSS, and JavaScript"
+    ],
+    "submit-work": "You can use almost any platform to share your designs. We recommend simply attatching a file with the designs, but don't mind what you use. As long as we are able to access all designs, it is allowed. Once finished, you can reply to the original email.",
+    "task": "We need you to design a logo for a new startup called GreenByte, whose mission is \"to revolutionize waste management through smart technology\". GreenByte develops an AI-powered device that sorts household waste into recyclable, compostable, and landfill categories. The device, named \"EcoSorter\", uses machine learning algorithms to recognize different types of waste, sort them accordingly, and provide users with data about their waste generation patterns. This logo should be relevant in its business context. Common graphic design principles should be employed, including contrast ratio and scalability."
+  },
+
+  "chief-technology-officer": {
+    "job": "Chief Information/Technology Officer",
+    "description": "Want to provide guidance on open source, collaboration methods, and more? This is for you!",
+    "long_description": "As a CIO/CTO, you will advise us on the technology we are using. Things like GitLab, Figma, Trello, etc. as well as methods of hosting and best practices.",
+    "requirements": [
+      "Experience with OSS, Git, etc.",
+      "Understanding of best technological practices"
+    ],
+    "desirable_skills": [
+      "Able to organize thoughts in an easy-to-understand format"
+    ],
+    "task": null
+  },
+
+  "trust-and-safety": {
+    "job": "Trust and Safety Advisor",
+    "description": "Good at giving legal advice? Want to help keep our community safe? Check out this job!",
+    "long_description": "As a trust and safety advisor, you will help keep our community safe by providing legal advice and guidance. You will, in short, let us know if what we're doing or what our community is doing is illegal.",
+    "requirements": [
+      "Understanding of U.S. law and regulations",
+      "Experience with community safety"
+    ],
+    "desirable_skills": [
+      "Experience communicating with lawyers and legal advisors",
+      "Experience writing emails and letters that effectively get a message across"
+    ],
+    "task": null
+  }
+}

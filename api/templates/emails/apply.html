@@ -1,0 +1,16 @@
+Thanks for choosing to work at Libit!<br />
+<br />
+This email marks the beginning of your 7 days to work on your assigned task. To confirm, you applied to the {{ jobs[job]['job'] }} role. Your task instructions are below:<br />
+{{ jobs[job]['task'] }}<br />
+<br />
+
+{% if jobs[job]['resources'] %}
+Here are some resources you may find useful:<br />
+{% for resource, link in jobs[job]['resources'].items() %}
+- <a href="{{ link }}">{{ resource }} ({{ link }})</a><br />
+{% endfor %}
+{% endif %}
+<br />
+
+Good luck and have a great day!<br>
+- The Libit Team

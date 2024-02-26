@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ job['job'] }}{% endblock %}
+
+{% block head %}
+<script defer src="{{ url_for('static', filename='job.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+<h1>{{ job['job'] }} @ Libit</h1>
+<button class="tertiary" onclick="history.back()">Go Back</button>
+
+<h2>About this Job</h2>
+<p>{{ job['long_description'] | safe }}</p>
+
+<h2>Job Requirements</h2>
+<ul>
+  {% for requirement in job['requirements'] %}
+  <li>{{ requirement }}</li>
+  {% endfor %}
+</ul>
+
+<h2>Desirable Skills</h2>
+<ul>
+  {% for skill in job['desirable_skills'] %}
+  <li>{{ skill }}</li>
+  {% endfor %}
+</ul>
+
+{% if job['task'] %}
+<h2>Application Process</h2>
+<p>When you apply, you will be required to enter your email so we can send you status updates on your application. When you press Apply, you will be assigned a task corresponding to your selected job that you will be given 7 days to complete. This task will help us assess your skills further and decide if you're fit for the job. For security reasons, we will not tell you the task until you apply.</p>
+<h3>How do I submit my work?</h3>
+<p>{{ job['submit-work'] }}</p>
+
+<hr>
+
+<div class="center">
+  <h2>Ready to apply?</h2>
+  <p>One click away from joining the future.</p>
+  <button id="apply" class="primary" data-job="{{ slug }}">Apply</button>
+</div>
+{% else %}
+<h2>Interested?</h2>
+<p>We aren't done working on the application process for this job, but if you're interested in it, you can shoot us an email at <a href="mailto:jobs@libit.xyz">jobs@libit.xyz</a> explaining that you're interested in the {{ job['job'] }} job.</p>
+{% endif %}
+{% endblock %}
