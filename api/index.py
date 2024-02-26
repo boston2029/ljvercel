@@ -8,21 +8,21 @@ from flask_mail import Mail
 # with open('jobs.json') as file:
 #     content = file.read()
 #     jobs = json.loads(content)
-jobs = json.loads('''{
+jobs = json.loads('''JSON.parse(`{
   "ui-ux-designer": {
     "job": "UI/UX Designer",
     "description": "Good at making mobile-friendly, responsive web designs? Check out this job.",
     "long_description": "As a UI/UX designer, you will design modern, sleek web interfaces. Some pages you will work on include the Libit IDE, Bibble (community forum), and more. These pages need to be responsive, SEO-friendly, accessible, and follow other common principles of modern web design.",
     "requirements": [
       "Able to understand and follow design principles (contrast, font, etc.)",
-      "Understanding of UX (\"if I were a normal user, would this be easy to use?\")"
+      "Understanding of UX \\\"if I were a normal user, would this be easy to use?\\\""
     ],
     "desirable_skills": [
       "Experience with website design tools (Figma, Sketch, Excalidraw, etc.)",
       "Knowledge of HTML, CSS, and JavaScript"
     ],
     "submit-work": "You can use almost any platform to share your designs. We recommend Figma, but don't mind what you use. As long as we are able to access all designs, it is allowed. Once finished, you can reply to the original email.",
-    "task": "GreenByte is a startup whose mission is \"to revolutionize waste management through smart technology\". GreenByte develops an AI-powered device that sorts household waste into recyclable, compostable, and landfill categories. The device, named \"EcoSorter\", uses machine learning algorithms to recognize different types of waste, sort them accordingly, and provide users with data about their waste generation patterns. You have been hired by GreenByte to design their landing page. They are asking for a responsive homepage that includes a navigation bar, hero section, about us section, contact section, and services section. They are asking for the accent colors to be based off of their name and overall branding.",
+    "task": "GreenByte is a startup whose mission is \\\"to revolutionize waste management through smart technology\\\". GreenByte develops an AI-powered device that sorts household waste into recyclable, compostable, and landfill categories. The device, named \\\"EcoSorter\\\", uses machine learning algorithms to recognize different types of waste, sort them accordingly, and provide users with data about their waste generation patterns. You have been hired by GreenByte to design their landing page. They are asking for a responsive homepage that includes a navigation bar, hero section, about us section, contact section, and services section. They are asking for the accent colors to be based off of their name and overall branding.",
     "resources": {
       "Realtime Colors": "https://realtimecolors.com/",
       "Website Design and Accessibility": "https://cdm-project.replit.app/"
@@ -54,9 +54,7 @@ jobs = json.loads('''{
       "Ability to bring designs to life on a webpage",
       "Experience with using APIs"
     ],
-    "desirable_skills": [
-      "Knowledge of Firebase"
-    ],
+    "desirable_skills": ["Knowledge of Firebase"],
     "submit-work": "You can use almost any platform to share your code. We recommend GitHub, but don't mind what you use. As long as we are able to access the full project, it is allowed. Once finished, you can reply to the original email with your code link/ZIP.",
     "task": "Create a small single-page application (SPA) that interacts with a public API. For example, a weather app that uses the OpenWeatherMap API to display weather data based on user input.",
     "resources": {
@@ -89,9 +87,7 @@ jobs = json.loads('''{
       "Experience with using and making APIs",
       "Experience with using Firebase"
     ],
-    "desirable_skills": [
-      "Experience with Firebase Admin SDK"
-    ],
+    "desirable_skills": ["Experience with Firebase Admin SDK"],
     "submit-work": "You can use almost any platform to share your code. We recommend GitHub, but don't mind what you use. As long as we are able to access the full project, it is allowed. Once finished, you can reply to the original email with your code link/ZIP.",
     "task": "Build any full-stack application. This could be a simple blog site where users can create, read, update, and delete blog posts."
   },
@@ -106,9 +102,7 @@ jobs = json.loads('''{
       "Ability to utilize browser DevTools to test endpoints and snippets of code.",
       "Critical-thinking skills"
     ],
-    "desirable_skills": [
-      "Knowledge of cURL and other API testing tools"
-    ],
+    "desirable_skills": ["Knowledge of cURL and other API testing tools"],
     "task": null
   },
 
@@ -118,14 +112,14 @@ jobs = json.loads('''{
     "long_description": "Hey, artist! Able to make graphics, banners, and other images? This is for you. You will design logos, icons, banners, promo content, and so much more.",
     "requirements": [
       "Able to understand and follow design principles (contrast, font, etc.)",
-      "Understanding of UX (\"if I were a normal user, would this be easy to use?\")"
+      "Understanding of UX (\\\"if I were a normal user, would this be easy to use?\\\")"
     ],
     "desirable_skills": [
       "Experience with graphic design tools (Photoshop, Illustrator, etc.)",
       "Knowledge of HTML, CSS, and JavaScript"
     ],
     "submit-work": "You can use almost any platform to share your designs. We recommend simply attatching a file with the designs, but don't mind what you use. As long as we are able to access all designs, it is allowed. Once finished, you can reply to the original email.",
-    "task": "We need you to design a logo for a new startup called GreenByte, whose mission is \"to revolutionize waste management through smart technology\". GreenByte develops an AI-powered device that sorts household waste into recyclable, compostable, and landfill categories. The device, named \"EcoSorter\", uses machine learning algorithms to recognize different types of waste, sort them accordingly, and provide users with data about their waste generation patterns. This logo should be relevant in its business context. Common graphic design principles should be employed, including contrast ratio and scalability."
+    "task": "We need you to design a logo for a new startup called GreenByte, whose mission is \\\"to revolutionize waste management through smart technology\\\". GreenByte develops an AI-powered device that sorts household waste into recyclable, compostable, and landfill categories. The device, named \\\"EcoSorter\\\", uses machine learning algorithms to recognize different types of waste, sort them accordingly, and provide users with data about their waste generation patterns. This logo should be relevant in its business context. Common graphic design principles should be employed, including contrast ratio and scalability."
   },
 
   "chief-technology-officer": {
@@ -156,7 +150,8 @@ jobs = json.loads('''{
     ],
     "task": null
   }
-}''')
+}
+`)''')
 
 app = Flask(__name__)
 app.config['MAIL_SERVER'] = 'smtp.zoho.com'
